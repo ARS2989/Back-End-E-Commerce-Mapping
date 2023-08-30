@@ -11,6 +11,6 @@ module.exports = {
       database: 'ecommerce_db',
       host: 'localhost',
       dialect: 'mysql'
-      dialectOptions: {
+      ,dialectOptions: {
         decimalNumbers: true,
       }}}
