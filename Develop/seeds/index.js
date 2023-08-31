@@ -3,8 +3,9 @@ const seedCategories = require('./category-seeds');
 const seedProducts = require('./product-seeds');
 const seedTags = require('./tag-seeds');
 const seedProductTags = require('./product-tag-seeds');
+
 // Require the sequelize instance from the config/connection module
-const sequelize = require('../config/connection');
+const sequelize = require('../Develop/config/connection');
 // Define a function to seed all data and sync the database
 const seedAll = async () => {
   await sequelize.sync({ force: true });

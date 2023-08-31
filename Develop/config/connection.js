@@ -1,10 +1,9 @@
 require('dotenv').config();
 
 const Sequelize = require('sequelize');
+const sequelize = new Sequelize(/Develop/config/connection);
 
-module.exports = sequelize;
-
-module.exports = {
+module.exports = sequelize; {
     development: {
       username: 'root',
       password: 'Welcome3',
