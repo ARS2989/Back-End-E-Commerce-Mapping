@@ -28,3 +28,7 @@ THEN I am able to successfully create, update, and delete data in my database
 3. Initiate the seeding of the database with test data using the command 'npm run seed'. Subsequently, launch the server with either 'npm start' or 'nodemon' to synchronize the Sequelize models with the MySQL database.
 4. For the development database, generate test data by employing the schema and seed commands.
 5. Employ Insomnia to test the 'http://localhost:3001' URL, making use of various route endpoints including API GET, POST, PUT, and DELETE routes for categories, products, and tags. Ensure successful operations including creation, updating, and deletion of data in the database.
+
+##GitHub Repository:
+
+Please visit my repo at: https://github.com/ARS2989/Back-End-E-Commerce-Mapping
